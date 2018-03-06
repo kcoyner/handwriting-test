@@ -1,0 +1,32 @@
+{
+  "name": "handwriting-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "windows_prod_start": "set NODE_ENV=production&&node ./server/server.js",
+    "start": "node ./server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supertopoz/handwriting-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/supertopoz/handwriting-test/issues"
+  },
+  "homepage": "https://github.com/supertopoz/handwriting-test#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "nodemon": "^1.17.1",
+    "parcel-bundler": "^1.6.2"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
